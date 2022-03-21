@@ -1,0 +1,49 @@
+$primaryColor : #1e88e5;
+$secondaryColor:#81d4fa;
+$tertiaryColor: #37474f;
+
+.custom-nav {
+    .navbar-brand{
+            color: $secondaryColor;
+            font-weight: 900;
+            background-color: $primaryColor;
+            padding: 5px;
+    }
+    #navbarNav{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: $secondaryColor;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-left: 1em;
+
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+                .sign-in-button {
+                    background-color: $secondaryColor;
+                    color: $tertiaryColor;
+                    border-radius: 0.5em;
+                    padding-left: 1.5em;
+                    padding-right: 1.5em;
+                    margin-left: 10px;
+                }
+                .mycart-button{
+                    background-color: yellow;
+                    color: $tertiaryColor;
+                    border-radius: 0.5em;
+                    padding-left: 1.5em;
+                    padding-right: 1.5em;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+img {
+    width: 200px;
+}
+
